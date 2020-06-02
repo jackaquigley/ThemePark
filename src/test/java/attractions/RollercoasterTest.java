@@ -35,5 +35,11 @@ public class RollercoasterTest {
 
     @Test
     public void canAgeCheck(){
-        assertTrue(rollerCoaster.isAllowedTo(visitor));}
+        assertTrue(rollerCoaster.isAllowedTo(visitor));
+    }
+
+    @Test
+    public void canGetDefaultPrice(){
+        assertEquals(8.40, rollerCoaster.defaultPrice(), 0.1);
+    }
 }

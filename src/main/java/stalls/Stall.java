@@ -1,8 +1,6 @@
 package stalls;
 
-import behaviours.IReviewed;
-
-public abstract class Stall implements IReviewed {
+public abstract class Stall {
 
     private String name;
     private String ownerName;
